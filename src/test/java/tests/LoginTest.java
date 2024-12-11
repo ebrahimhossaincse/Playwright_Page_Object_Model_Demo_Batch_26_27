@@ -23,7 +23,7 @@ public class LoginTest extends BaseDriver {
 	public void openUrl(@Optional String url, @Optional String browserName, @Optional String headless)
 			throws InterruptedException {
 		Properties properties = new Properties();
-		String env = System.getProperty("env", "dev");
+//		String env = System.getProperty("env", "dev");
 		//String configFileName = String.format(".//resources/config-dev.properties");
 		String configFileName = String.format(".//resources/config-dev.properties");
 		try (InputStream input = getClass().getClassLoader().getResourceAsStream(configFileName)) {
